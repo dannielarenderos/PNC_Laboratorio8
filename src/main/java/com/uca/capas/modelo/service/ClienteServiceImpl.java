@@ -265,7 +265,7 @@ public class ClienteServiceImpl implements ClienteService {
 
 	private List<Vehiculo> prepararColeccion() throws ParseException {
 		// TODO Auto-generated method stub
-		String csv = "C:\\Users\\CLAINEZ\\Documents\\workspace-spring-tool-suite-4-4.6.0.RELEASE\\Laboratorio8\\modelo" + "\\vehiculos.csv";
+		String csv = "D:\\UCA\\vehiculos.csv";
 		
 		List<Vehiculo> coleccion = new ArrayList<Vehiculo>();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");

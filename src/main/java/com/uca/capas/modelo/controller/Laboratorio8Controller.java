@@ -42,7 +42,7 @@ public class Laboratorio8Controller {
 		return mav;
 	}
 	
-	@RequestMapping(value="/saveCliente", method = RequestMethod.POST)
+	@RequestMapping(value="/savecliente", method = RequestMethod.POST)
 	public ModelAndView saveCliente(@Valid @ModelAttribute("cliente") Cliente c, BindingResult r) {
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("cliente", new Cliente());
@@ -70,7 +70,7 @@ public class Laboratorio8Controller {
 	@RequestMapping("/procAlmacenadoJdbc")
 	public ModelAndView procAlmacenadoJdbc() {
 		ModelAndView mav = new ModelAndView();
-		mav.addObject("cliente", new Cliente());
+		mav.addObject("usuario", new Cliente());
 		mav.setViewName("Laboratorio/procedimiento");
 		return mav;
 	}
